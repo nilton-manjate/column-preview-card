@@ -1,7 +1,30 @@
-@charset "UTF-8";
+/* Importing fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+/* Declaring variables */
+:root {
+  /* Colors */
+  --brightOrange: hsl(31, 77%, 52%);
+  --darkCyan: hsl(184, 100%, 22%);
+  --veryDarkCyan: hsl(179, 100%, 13%);
+  --white: hsla(0, 0%, 100%, 0.75);
+  --veryLightGray: hsl(0, 0%, 95%);
+
+  /* Fonts */
+  --heading: 'Big Shoulders Display', sans-serif;
+  --paragraph: 'Lexend Deca', sans-serif;
+}
+
+/* Style reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* Arranjando a forma do section */
+section {
+  
 }
