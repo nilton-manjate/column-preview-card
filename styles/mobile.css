@@ -92,3 +92,9 @@ section {
   background-color: var(--veryDarkCyan);
 }
 
+@media only screen and (min-width: 992px) {
+  main {
+    width: 920px;
+    display: flex;
+  }
+}
