@@ -24,7 +24,71 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: var(--white);
+}
+
+main {
+  margin: 70px auto;
+  width: 340px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Estilizando o texto */
+h1 {
+  font-family: var(--heading);
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+
+p {
+  font-family: var(--paragraph);
+  font-size: 15px;
+}
+
+button {
+  margin-top: 35px;
+  font-family: var(--paragraph);
+  padding: 15px 35px;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+}
+
+#sedanButton {
+  color: var(--brightOrange);
+}
+
+#suvButton {
+  color: var(--darkCyan);
+}
+
+#luxuryButton {
+  color: var(--veryDarkCyan);
+}
+
 /* Arranjando a forma do section */
 section {
-  
+  margin: auto;
+/*  width: 340px; */
+  color: white;
+  padding: 50px;
 }
+
+.icon {
+  margin-bottom: 35px;
+}
+
+#sedan {
+  background-color: var(--brightOrange);
+}
+
+#suv {
+  background-color: var(--darkCyan);
+}
+
+#luxury {
+  background-color: var(--veryDarkCyan);
+}
+
