@@ -7,8 +7,11 @@
 :root {
   /* Colors */
   --brightOrange: hsl(31, 77%, 52%);
+  --Orange: rgb(182, 109, 30);
   --darkCyan: hsl(184, 100%, 22%);
+  --darkerCyan: rgb(0, 84, 90);
   --veryDarkCyan: hsl(179, 100%, 13%);
+  --veryDarkerCyan: rgb(0, 53, 52);
   --white: hsla(0, 0%, 100%, 0.75);
   --veryLightGray: hsl(0, 0%, 95%);
 
@@ -57,15 +60,18 @@ button {
 }
 
 #sedanButton {
-  color: var(--brightOrange);
+  color: var(--Orange);
+  border: 1px solid var(--Orange);
 }
 
 #suvButton {
-  color: var(--darkCyan);
+  color: var(--darkerCyan);
+  border: 1px solid var(--darkerCyan);
 }
 
 #luxuryButton {
-  color: var(--veryDarkCyan);
+  color: var(--veryDarkerCyan);
+  border: 1px solid var(--veryDarkerCyan);
 }
 
 /* Arranjando a forma do section */
