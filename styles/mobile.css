@@ -27,6 +27,7 @@
   box-sizing: border-box;
 }
 
+/* Defining the body of the website */
 body{
   background-color: var(--white);
 }
@@ -38,7 +39,7 @@ main {
   overflow: hidden;
 }
 
-/* Estilizando o texto */
+/* Styling the text */
 h1 {
   font-family: var(--heading);
   font-size: 45px;
@@ -59,11 +60,6 @@ button {
   border-radius: 30px;
 }
 
-button:hover {
-  cursor: pointer;
-  background-color: transparent;
-}
-
 #sedanButton {
   color: var(--Orange);
   border: 2px solid var(--Orange);
@@ -79,6 +75,11 @@ button:hover {
   border: 2px solid var(--veryDarkerCyan);
 }
 
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+}
+
 #sedanButton:hover, #suvButton:hover, #luxuryButton:hover {
   color: white;
   background-color: transparent;
@@ -86,7 +87,7 @@ button:hover {
   transition: .3s;
 }
 
-/* Arranjando a forma do section */
+/* Arranging the shape of the section */
 section {
   margin: auto;
 /*  width: 340px; */
@@ -115,6 +116,7 @@ section {
   border-radius: 0 0 10px 10px;
 }
 
+/* Style for larger screens */
 @media only screen and (min-width: 992px) {
   main {
     width: 920px;
