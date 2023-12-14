@@ -30,10 +30,13 @@
 /* Defining the body of the website */
 body{
   background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 main {
-  margin: 70px auto;
   width: 340px;
   border-radius: 10px;
   overflow: hidden;
