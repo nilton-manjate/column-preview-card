@@ -59,19 +59,31 @@ button {
   border-radius: 30px;
 }
 
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+}
+
 #sedanButton {
   color: var(--Orange);
-  border: 1px solid var(--Orange);
+  border: 2px solid var(--Orange);
 }
 
 #suvButton {
   color: var(--darkerCyan);
-  border: 1px solid var(--darkerCyan);
+  border: 2px solid var(--darkerCyan);
 }
 
 #luxuryButton {
   color: var(--veryDarkerCyan);
-  border: 1px solid var(--veryDarkerCyan);
+  border: 2px solid var(--veryDarkerCyan);
+}
+
+#sedanButton:hover, #suvButton:hover, #luxuryButton:hover {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  transition: .3s;
 }
 
 /* Arranjando a forma do section */
@@ -88,19 +100,33 @@ section {
 
 #sedan {
   background-color: var(--brightOrange);
+  border: 1px solid var(--Orange);
+  border-radius: 10px 10px 0 0;
 }
 
 #suv {
   background-color: var(--darkCyan);
+  border: 1px solid var(--darkerCyan);
 }
 
 #luxury {
   background-color: var(--veryDarkCyan);
+  border: 1px solid var(--veryDarkerCyan);
+  border-radius: 0 0 10px 10px;
 }
 
 @media only screen and (min-width: 992px) {
   main {
     width: 920px;
     display: flex;
+  }
+
+  #sedan {
+    border-radius: 10px 0 0 10px;
+  }
+
+
+  #luxury {
+    border-radius: 0 10px 10px 0;
   }
 }
